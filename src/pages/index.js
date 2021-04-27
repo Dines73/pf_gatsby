@@ -3,8 +3,11 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 // import * as neumor from "../styles/neumor.module.css"
+import { graphql } from "gatsby"
 
-export default function Home() {
+export default function Home({ data }) {
+  console.log(data)
+  const { title, description } = data.site.siteMetadata
   return (
     <Layout>
       <section className={styles.header}>
@@ -23,7 +26,21 @@ export default function Home() {
           </div>
         </div> */}
         <img src="/coder.svg" alt="coder banner" style={{ maxWidth: "100%" }} />
+        <p>
+          {title} - {description}
+        </p>
       </section>
     </Layout>
   )
 }
+
+export const query = graphql`
+  query SiteInfo {
+    site {
+      siteMetadata {
+        description
+        title
+      }
+    }
+  }
+`
