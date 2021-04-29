@@ -5,16 +5,14 @@ import * as styles from "../styles/home.module.css"
 // import * as neumor from "../styles/neumor.module.css"
 import { graphql } from "gatsby"
 
-export default function Home({ data }) {
-  console.log(data)
-  const { title, description } = data.site.siteMetadata
+export default function Home() {
   return (
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Design</h2>
-          <h3>Develop & deploy</h3>
-          <p>UX Designer & Web Developer based in Vienna</p>
+          <h2>Hallo, ich bin Edin</h2>
+          <h3>Web Entwicklung aus Leidenschaft</h3>
+          <p>Web Entwickler </p>
           <Link className={styles.btn} to="/projects">
             Mein Werk
           </Link>
@@ -26,9 +24,6 @@ export default function Home({ data }) {
           </div>
         </div> */}
         <img src="/coder.svg" alt="coder banner" style={{ maxWidth: "100%" }} />
-        <p>
-          {title} - {description}
-        </p>
       </section>
     </Layout>
   )
