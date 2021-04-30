@@ -10,11 +10,16 @@ export default function Home() {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Hallo, ich bin Edin</h2>
-          <h3>Web Entwicklung aus Leidenschaft</h3>
-          <p>Web Entwickler </p>
+          <h3>Speicherprogrammierbare Steuerung</h3>
+          <h5>Programmable logic controller</h5>
+          <p>
+            Ein Gerät, das zur Steuerung oder Regelung einer Maschine oder
+            Anlage eingesetzt und auf digitaler Basis programmiert wird. Sie
+            löst die „festverdrahtete“ verbindungsprogrammierte Steuerung in den
+            meisten Bereichen ab.{" "}
+          </p>
           <Link className={styles.btn} to="/projects">
-            Mein Werk
+            Beispiele
           </Link>
         </div>
         {/* <div className={neumor.scene}>
