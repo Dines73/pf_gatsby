@@ -1,7 +1,7 @@
 ---
 title: Wasserbecken
-stack: Problemstellung 5
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 5
 ---
 
 In einem Wasserbecken soll der Wasserstand gesteuert werden. Drei Schwimmerschalter (B1 – B3) erfassen den Wasserstand und zwei Pumpen mit unterschiedlicher Förderleistung (P2 doppelte Förderleistung von P1) ermöglichen eine Wasserzufuhr bei Wasserentnahme durchs Abflussrohr.

@@ -1,7 +1,7 @@
 ---
 title: Kirschenabfüllanlage
-stack: Problemstellung 19
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 19
 ---
 
 Auf einem Transportband, dass durch einen Motor angetrieben wird, werden Gläser unter einem Behälter bewegt. Der Sensor meldet ein vorhandenes Glas und schaltet den Bandmotor ab. Gleichzeitig wird der Absperrschieber geöffnet. Dadurch fallen Kirschen in das Glas.

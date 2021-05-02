@@ -1,7 +1,7 @@
 ---
 title: Kübelaufzug
-stack: Problemstellung 20
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 20
 ---
 
 Ein Kübel soll Material aus dem Vorratsbunker auf ein Förderband transportieren. Die Anlage soll im Hand- und Automatikbetrieb fahrbar sein. Für beide Betriebsarten gelten folgende Schaltbedingungen:

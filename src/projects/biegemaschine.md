@@ -1,7 +1,7 @@
 ---
 title: Biegemaschine
-stack: Problemstellung 18
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 18
 ---
 
 Auf einer Biegevorrichtung werden Bleche gebogen.

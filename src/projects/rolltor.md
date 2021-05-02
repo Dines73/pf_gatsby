@@ -1,7 +1,7 @@
 ---
 title: Rolltor
-stack: Problemstellung 7
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 7
 ---
 
 Ein Rolltor soll für Pkw- bzw. Lkw-Verkehr unterschiedlich weit aufgefahren werden.

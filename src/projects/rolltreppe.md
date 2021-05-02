@@ -1,7 +1,7 @@
 ---
 title: Rolltreppe
-stack: Problemstellung 13
-slug: Grundlagen
+stack: Grundlagen
+slug: Problemstellung 13
 ---
 
 Eine Rolltreppe wird über einen Taster „Betriebsbereit“ in den Bereitschaftszustand versetzt.
