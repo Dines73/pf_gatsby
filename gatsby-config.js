@@ -27,5 +27,6 @@ module.exports = {
     title: "CodinES",
     description: "web dev portfolio",
     copyright: "Copyright 2021 CodinES",
+    contact: "edo@gmail.com",
   },
 }
