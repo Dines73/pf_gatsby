@@ -3,8 +3,9 @@ import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 import { graphql } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
 
-export default function Home() {
+export default function Home(data) {
   return (
     <Layout>
       <section className={styles.header}>
@@ -28,18 +29,31 @@ export default function Home() {
             mehr...
           </Link>
         </div>
-        <img src="/coder.svg" alt="coder banner" style={{ maxWidth: "100%" }} />
+        <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
+        {/* <img src="/coder.svg" alt="coder banner" style={{ maxWidth: "100%" }} /> */}
       </section>
     </Layout>
   )
 }
 
+// export const query = graphql`
+//   query SiteInfo {
+//     site {
+//       siteMetadata {
+//         description
+//         title
+//       }
+//     }
+//   }
+// `
+
 export const query = graphql`
-  query SiteInfo {
-    site {
-      siteMetadata {
-        description
-        title
+  query ImageQuery {
+    file(relativePath: { eq: "coder.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
