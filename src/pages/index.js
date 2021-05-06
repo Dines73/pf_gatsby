@@ -1,11 +1,11 @@
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
-import { graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
-export default function Home(data) {
+export default function Home({ data }) {
+  console.log(data)
   return (
     <Layout>
       <section className={styles.header}>
@@ -29,8 +29,7 @@ export default function Home(data) {
             mehr...
           </Link>
         </div>
-        <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
-        {/* <img src="/coder.svg" alt="coder banner" style={{ maxWidth: "100%" }} /> */}
+        <StaticImage src="../images/coder.png" alt="Coder" />
       </section>
     </Layout>
   )
